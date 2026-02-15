@@ -20,14 +20,14 @@
     <scm>
         <connection>scm:git:git://github.com/ThomasBeauchataud/spring-entity-factory.git</connection>
         <developerConnection>scm:git:ssh://github.com:ThomasBeauchataud/spring-entity-factory.git</developerConnection>
-        <url>https://github.com/ThomasBeauchataud/entity-factory</url>
+        <url>https://github.com/ThomasBeauchataud/spring-entity-factory</url>
     </scm>
 
     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/tbcd/entity-factory</url>
+            <url>https://maven.pkg.github.com/ThomasBeauchataud/spring-entity-factory</url>
         </repository>
     </distributionManagement>
 
