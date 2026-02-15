@@ -4,11 +4,11 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.github.tbcd.test</groupId>
-    <artifactId>fixtures</artifactId>
+    <groupId>com.github.tbcd</groupId>
+    <artifactId>entity-factory</artifactId>
     <version>1.0.0</version>
-    <name>fixtures</name>
-    <description>Demo project for Spring Boot</description>
+    <name>entity-factory</name>
+    <description>Instigate entity random entity for test purpose</description>
 
     <properties>
         <java.version>25</java.version>
@@ -20,14 +20,14 @@
     <scm>
         <connection>scm:git:git://github.com/ThomasBeauchataud/spring-entity-factory.git</connection>
         <developerConnection>scm:git:ssh://github.com:ThomasBeauchataud/spring-entity-factory.git</developerConnection>
-        <url>https://github.com/ThomasBeauchataud/fixtures</url>
+        <url>https://github.com/ThomasBeauchataud/entity-factory</url>
     </scm>
 
     <distributionManagement>
         <repository>
             <id>github</id>
             <name>GitHub Packages</name>
-            <url>https://maven.pkg.github.com/tbcd/fixtures</url>
+            <url>https://maven.pkg.github.com/tbcd/entity-factory</url>
         </repository>
     </distributionManagement>
 
