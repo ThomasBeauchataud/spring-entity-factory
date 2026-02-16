@@ -43,6 +43,7 @@ public abstract class AbstractEntityFactory<T> implements EntityFactory<T> {
 	}
 
 	public T random() {
-		return jpaRepository.findAll().getFirst();
+		List<T> all = jpaRepository.findAll();
+		return all.isEmpty() ? create() : all.getFirst();
 	}
 }
